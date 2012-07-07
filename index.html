@@ -26,8 +26,8 @@
 
     <!-- Do not add any other CSS here and @import it in app.css. It
          will be inlined when building. -->
-    <link rel="stylesheet"  href="js/jquery.mobile-1.1.0/jquery.mobile-1.1.0.min.css" />
-    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <!-- <link rel="stylesheet"  href="js/jquery.mobile-1.1.0/jquery.mobile-1.1.0.min.css" /> -->
+    <link rel="stylesheet" href="css/app.css">
     <style type="text/css">
 
     .ui-li-static {
@@ -109,10 +109,9 @@
          js files. This loads "main.js", which in turn can load other
          files, all handled by require.js:
          http://requirejs.org/docs/api.html#jsfiles -->
-    <script src="js/lib/jquery.js"></script>
-    <script src="js/jquery.mobile-1.1.0//jquery.mobile-1.1.0.min.js"></script>
-    <script src="js/app.js"></script>
-
+    <script type="text/javascript"
+            data-main="js/app.js"
+            src="js/lib/require.js"></script>
     <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
          mathiasbynens.be/notes/async-analytics-snippet -->
     <script>
