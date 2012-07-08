@@ -1,0 +1,6 @@
+@import url("../js/lib/jqmobile/jquery.mobile-1.1.0.min.css");
+
+.ui-li-static {
+	font-weight: normal !important;
+	font-family: sans-serif;
+}
